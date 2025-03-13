@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Money Making Club - Winity</title>
+    <style>
+        /* General Reset and Layout */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+        }
+
+        /* Header Section */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        /* Section Layout */
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        /* Benefits List */
+        .benefits-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .benefit {
+            background-color: #f1c40f;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        .benefit h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .benefit p {
+            font-size: 1.1rem;
+        }
+
+        /* Testimonials Section */
+        .testimonials {
+            background-color: #e2e2e2;
+            padding: 40px 20px;
+        }
+
+        .testimonial {
+            margin: 10px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .testimonial p {
+            font-style: italic;
+        }
+
+        /* Price and Call-to-Action */
+        .price-section {
+            background-color: #333;
+            color: white;
+            padding: 50px 20px;
+        }
+
+        .price-section h3 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .price-section p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .cta-button {
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            background-color: #f1c40f;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #e1b104;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 1rem;
+        }
+
+        /* Media Queries for Responsiveness */
+        @media only screen and (max-width: 768px) {
+            section h2 {
+                font-size: 2rem;
+            }
+
+            section p {
+                font-size: 1.1rem;
+            }
+
+            .benefits-list {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .benefit {
+                padding: 15px;
+            }
+
+            .testimonial {
+                padding: 15px;
+            }
+
+            .price-section h3 {
+                font-size: 1.8rem;
+            }
+
+            .price-section p {
+                font-size: 1.1rem;
+            }
+
+            .cta-button {
+                font-size: 1.1rem;
+                padding: 12px 25px;
+            }
+
+            footer p {
+                font-size: 0.9rem;
+            }
+        }
+
+        @media only screen and (max-width: 480px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+
+            section h2 {
+                font-size: 1.7rem;
+            }
+
+            section p {
+                font-size: 1rem;
+            }
+
+            .benefits-list {
+                grid-template-columns: 1fr;
+            }
+
+            .cta-button {
+                font-size: 1rem;
+                padding: 10px 20px;
+            }
+
+            footer p {
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Money Making Club - Winity</h1>
+        <p>Unlock Your Potential and Achieve Financial Success</p>
+    </header>
+
+    <!-- Club Introduction Section -->
+    <section>
+        <h2>Welcome to the Money Making Club!</h2>
+        <p>For just ₹199, become a member of our exclusive club and access valuable marketing tools, training, and a community of like-minded individuals!</p>
+    </section>
+
+    <!-- Benefits Section -->
+    <section>
+        <h2>What You Get in the Club</h2>
+        <div class="benefits-list">
+            <div class="benefit">
+                <h3>3 Days of Training</h3>
+                <p>Learn the most effective marketing strategies, tips, and techniques that can help you boost your business and start earning more today!</p>
+            </div>
+            <div class="benefit">
+                <h3>3 Days of Doubt Sessions</h3>
+                <p>Have questions or need clarification? Join our interactive doubt sessions and get expert answers in real-time.</p>
+            </div>
+            <div class="benefit">
+                <h3>Testimonies from Successful Members</h3>
+                <p>Hear from members who have transformed their lives through our strategies. Real stories and proven results!</p>
+            </div>
+            <div class="benefit">
+                <h3>Personal Interaction with Experts</h3>
+                <p>Get one-on-one time with our expert mentors and receive personalized advice tailored to your goals and challenges.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2>What Our Members Say</h2>
+        <div class="testimonial">
+            <p>"Joining the Money Making Club has changed my life. The strategies taught in the training helped me boost my online sales by over 200%!" - Rahul G.</p>
+        </div>
+        <div class="testimonial">
+            <p>"I had so many questions, but the doubt sessions cleared everything up. The personal mentorship was priceless!" - Priya S.</p>
+        </div>
+    </section>
+
+    <!-- Price and Call-to-Action -->
+    <section class="price-section">
+        <h3>Join Today for Just ₹199</h3>
+        <p>This small investment could be the key to unlocking your financial future. Don't miss out on this opportunity!</p>
+        <button class="cta-button" onclick="window.location.href='https://www.example.com/register'">Join Now</button>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Winity. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

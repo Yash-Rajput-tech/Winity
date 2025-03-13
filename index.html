@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Winity - Marketing and Growth</title>
+    <style>
+        /* General Reset and Layout */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+        }
+
+        /* Header Section */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 15px 0;
+        }
+
+        nav a {
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            margin: 0 10px;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #f1c40f;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            background-color: #f1c40f;
+            color: #333;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .hero-section h1 {
+            font-size: 3rem;
+        }
+
+        .hero-section p {
+            font-size: 1.5rem;
+            margin-top: 20px;
+        }
+
+        .hero-section button {
+            padding: 15px 30px;
+            font-size: 1.3rem;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 30px;
+            transition: background-color 0.3s ease;
+        }
+
+        .hero-section button:hover {
+            background-color: #444;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 1rem;
+        }
+
+        /* Media Queries for Responsiveness */
+        @media only screen and (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+
+            .hero-section h1 {
+                font-size: 2.2rem;
+            }
+
+            .hero-section p {
+                font-size: 1.2rem;
+            }
+
+            .hero-section button {
+                font-size: 1.1rem;
+                padding: 12px 25px;
+            }
+
+            footer p {
+                font-size: 0.9rem;
+            }
+        }
+
+        @media only screen and (max-width: 480px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+
+            .hero-section h1 {
+                font-size: 1.8rem;
+            }
+
+            .hero-section p {
+                font-size: 1.1rem;
+            }
+
+            nav a {
+                font-size: 1rem;
+                padding: 10px 15px;
+            }
+
+            footer p {
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Winity</h1>
+        <p>Unlock Your Potential with Innovative Strategies</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <!-- <a href="#about">About Us</a> -->
+        <a href="contact-us.html">Contact</a>
+        <a href="money-making-club.html">Money Making Club</a>
+        <a href="about-us.html">About Us</a> <!-- Added new About Us Page link -->
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <h1>Welcome to Winity!</h1>
+        <p>Empowering individuals and businesses to achieve their financial goals.</p>
+        <button onclick="window.open('#money-club', '_blank')">Join the Money Making Club</button>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Winity. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
