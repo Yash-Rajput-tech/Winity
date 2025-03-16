@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.body {
+    margin: 25px 0px 0px 150px;
+}
+
+.head {
+    display: flex;
+    /* margin: 50px 0px 0px 190px; */
+}
+
+.headlogo img {
+    width: 130px;
+}
+
+.name {
+    padding: 52px 0px 0px 0px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #0d2366;
+}
+
+.topic {
+    padding-left: 37px;
+    font-size: 26px;
+    font-weight: 700;
+    color: #0d2366;
+}
+
+.underline {
+    width: 40px;
+    height: 6px;
+    background-color: #0072ff;
+    margin-top: 16px;
+}
+
+.image video {
+    top: 0px;
+    left: 0px;
+    width: 280px;
+    margin: 45px 0px 0px 95px;
+}
+
+.image img {
+    margin: 0px 0px 0px 0px;
+}
+
+.info {
+    color: #0d2366;
+    font-size: 20px;
+    margin: 10px 0px 0px 70px;
+}
+
+.list {
+    margin-top: 25px;
+}
+
+.list ul li {
+    padding-top: 10px;
+}
+
+.info ul {
+    padding: 0px 0px 0px 38px;
+}
+
+.contact {
+    margin-top: 30px;
+}
+
+.email {
+    display: flex;
+    padding-top: 5px;
+}
+
+.email p {
+    padding-left: 10px;
+}
+
+.call {
+    display: flex;
+    padding-top: 5px;
+}
+
+.call p {
+    padding-left: 10px;
+}
+
+.term {
+    margin-top: 35px;
+    margin-bottom: 20px;
+    width: 400px;
+}
+
+.term p {
+    color: #525252;
+    font-size: 16px;
+}
+
+.form {
+    position: absolute;
+    top: 180px;
+    left: 700px;
+    background-color: #f3f3f3;
+    padding: 15px 0px 0px 25px;
+    font-weight: 700;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.form h4 {
+    color: #0d2366;
+    font-size: 25px;
+}
+
+.form input {
+    margin: 20px 0px;
+    height: 30px;
+    width: 200px;
+    border: none;
+    border: 1px solid black;
+}
+
+.amount input{
+    margin-left: 90px;
+    border: none;
+    border: 1px solid black;
+    padding: 0px 0px 0px 5px;
+}
+
+.amount p {
+    position: relative;
+    top: -10px;
+    left: 162px;
+    width: 200px;
+    color: #515978;
+    font-size: 15px;
+}
+
+.phone input{
+    margin-left: 103px;
+    border: none;
+    border: 1px solid black;
+    padding: 0px 0px 0px 5px;
+}
+
+.phone p {
+    position: relative;
+    top: -10px;
+    left: 162px;
+    width: 200px;
+    color: #515978;
+    font-size: 15px;
+}
+
+.fullname input{
+    margin-left: 65px;
+    padding: 0px 0px 0px 5px;
+}
+
+.fullname p {
+    position: relative;
+    top: -10px;
+    left: 162px;
+    width: 200px;
+    color: #515978;
+    font-size: 15px;
+}
+
+.footer {
+    display: flex;
+    height: 45px;
+    margin-top: 25px;
+}
+
+.method img {
+    width: 170px;
+    height: 12px;
+    margin: 12px 65px 0px 20px;
+}
+
+.btn {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: #0072ff;
+    padding: 0px 75px 0px 0px;
+    color: white;
+    font-weight: 800;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color: #0064df;
+}
+
+.btn .r {
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+
+.btn i {
+    position: relative;
+    top: 13px;
+    left: 44px;
+    font-size: 20px;
+}
+
+.btn .p {
+    position: relative;
+    top: 10px;
+    left: 30px;
+    text-decoration: none;
+    color: white;
+}
